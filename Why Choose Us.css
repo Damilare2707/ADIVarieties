@@ -1,0 +1,220 @@
+ *,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-wrap: break-word;
+}
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    height: 90px;
+    align-items: center;
+    background: white;
+    border-color: #58a8ff;
+    overflow-wrap: break-word;
+    border: 1px solid whitesmoke;
+    
+}
+.log{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.log p{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+    width: 75px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    display: flex;
+    list-style:none;
+    gap: 12px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    color: #D4AF37;
+    transition: 0.3s;
+}
+ul li a:focus{
+    color:#D4AF37;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+.btn{
+    width: 100px;
+    padding: 9px;
+    border-radius: 10px;
+    background:  rgb(255, 184, 3);
+    border-color:  rgb(255, 184, 3);
+}
+.hamburger{
+    display: none;
+}
+.the{
+    text-align: center;
+    justify-items: center;
+}
+.home{
+    text-align: center;
+    justify-content: center;
+}
+.we{
+    text-align: center;
+    justify-content: center;
+}
+.why{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.inspect{
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 20px;
+    padding: 20px;
+    background: rgb(255, 254, 253);
+    transition: all 0.3s ease;
+}
+.inspect h1{
+    font-size:20px; 
+}
+.inspect:hover{
+    transform: scale(1.1);
+    border: 2px solid  rgb(255, 184, 3);
+}
+.inspect:focus{
+    transform: scale(1.1);
+    
+}
+.direct{
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 20px;
+    padding: 20px;
+    background: rgb(255, 254, 253);
+    transition: all 0.3s ease;
+}
+.direct h1{
+    font-size: 20px;
+}
+.direct:hover{
+    transform: scale(1.1);
+    border: 2px solid  rgb(255, 184, 3);
+}
+.direct:focus{
+    transform: scale(1.1); 
+}
+.fast{
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 20px;
+    padding: 20px;
+    background:rgb(255, 254, 253);
+    transition: all 0.3s ease;
+}
+.fast h1{
+    font-size: 20px;
+}
+.fast:hover{
+    transform: scale(1.1);
+    border: 2px solid  rgb(255, 184, 3);
+}
+.fast:focus{
+    transform: scale(1.1);  
+}
+.year{
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 20px;
+    padding: 20px;
+    background:  rgb(255, 254, 253);
+    transition: all 0.3s ease;
+}
+.year h1{
+    font-size: 20px;
+}
+.year:hover{
+    transform: scale(1.1);
+    border: 2px solid  rgb(255, 184, 3);
+}
+.year:focus{
+    transform: scale(1.1);
+}
+
+.quality{
+    margin-top: 20px;
+    display: flex;
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.qua span{
+    color:  rgb(255, 184, 3);
+}
+.qua p{
+    width:700px;
+}
+.qua1{
+    justify-content:center;
+    margin-left: 200px;
+    padding: 10px;
+    border: 1px solid rgb(240, 234, 224);
+    border-radius: 10px;
+    background: rgb(32, 32, 32);
+}
+.qua1 h4{
+    font-size: 14px;
+}
+section{
+    padding: 20px;
+}
+.customer{
+    background:  rgb(238, 233, 233)
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.review1 span{
+    color:  rgb(255, 184, 3);
+}
+.review1 h1{
+    font-size: 30px;
+}
+.review1 p{
+    width: 540px;
+}
+.review2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.review3{
+    border: 1px solid  rgb(255, 184, 3);
+    border-radius: 15px;
+    padding: 40px;
+    width: 500px;
+}
+.review3 h1{
+    font-size: clamp(0.5rem, 2vw, 1rem);
+    margin-top: 20px;
+}
